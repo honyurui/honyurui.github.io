@@ -1,0 +1,176 @@
+body {
+    font-family:'Roboto Mono', monospace; 
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+p #tracker {
+    color: red;
+    width: 70px;
+}
+
+span {
+    background: rgba(250,250,250, 0.5);
+    padding: 0% 7%;
+    letter-spacing: 4px;
+}
+
+
+section div button {
+    color: white;
+    background:  rgb(101, 7, 242);
+    font-size: 5rem !important;  
+    transition: all 0.3s;
+}
+
+section div button:hover {
+    transition: background 0.6s;
+    --webkit-transition: background 0.6s;
+    --moz-transition: background 0.6s;
+}
+
+div button{
+    border:none;
+    background:none;
+    outline:none;
+    transition: all 0.8s;
+    height: 100%;
+}
+
+section p {
+    height: 28px;
+}
+
+
+.jp {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-weight: 400;
+}
+
+
+.deuce {
+    background: black !important;
+}
+.winner {
+    background:red !important;
+}
+.loser {
+    background: #0a00c9 !important;
+}
+
+.header {
+    background: url('https://tabletennis-navi.info/wp-content/uploads/2018/02/5fdfa7cda8d6517ea8f8a4306272d13d.jpg') 15% 15% / cover no-repeat;
+
+}
+
+.space {
+    background:none;
+    height:6px;
+}
+
+.jumbotron {
+    height: 150px;
+}
+
+.serverOn {
+    background: #0003d1;
+}
+
+.server:hover {
+    background: #0003d1;
+}
+
+#title{
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+#credit{
+    font-size: 0.5rem;
+}
+
+
+#message{
+    text-align: center;
+    font-size: 0.4rem;
+    margin: 0% 0%;
+    padding: 0% 0%;
+    letter-spacing: 0rem;
+}
+
+
+#p1SubDisplay{    
+    font-size: 2rem !important;
+    background:white;
+    color: red;
+    transition: 2s;
+}
+
+#p2SubDisplay{    
+    font-size: 2rem !important;
+    background:white;
+    color: red;
+    transition: 2s;
+}
+#counter {
+    background: violet;
+}
+
+
+#p1 {
+    background: rgb(101, 7, 242); 
+}
+
+#p2 {
+    background: rgb(101, 7, 242); 
+}
+
+#p1Del {
+    background: rgb(101, 7, 242); 
+}
+
+#p1GameDel {
+    color: red;
+}
+
+#p2Del {
+    background: rgb(101, 7, 242); 
+}
+
+#p2GameDel {
+    color: red;
+}
+
+#serverTracker {
+    width: 40px;
+    color: red;
+    font-weight: 500;
+    outline: none;
+}
+
+#courtTracker {
+    width: 40px;
+    color: red;
+    font-weight: 500;
+    outline: none;
+}
+#soundTracker {
+    width: 40px;
+    color: red;
+    font-weight: 500;
+    outline: none;
+}
+
+
+#soundButton {
+    width: 20x;
+    color: red;
+    font-weight: 500;
+    outline: none;
+}
+
+
+
+
