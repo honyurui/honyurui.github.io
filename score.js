@@ -95,7 +95,7 @@ serverTracker.addEventListener('click', function () {
 courtTracker.addEventListener('click', function () {
     if (this.textContent === 'ON') {
         this.textContent = 'OFF';
-        if (p2Marker.classList.contains('serverOn')){
+        if (p2Marker.classList.contains('serverOn')) {
             firstServer = 1;
         }
     } else {
@@ -180,7 +180,7 @@ p2Button.addEventListener('click', function () {
     if (!gameOver && !gameEnd) {
         p2Score++;
         totalScore++;
-        if (totalScore % 2 === 0  && serverTracker.textContent === 'ON') {
+        if (totalScore % 2 === 0 && serverTracker.textContent === 'ON') {
             p1Marker.classList.toggle('serverOn');
             p2Marker.classList.toggle('serverOn');
         }
@@ -291,8 +291,8 @@ nextButton.addEventListener('click', function () {
             p1Button.innerHTML = '<i class="fas fa-grin-squint-tears"></i>';
             p2Button.classList.add('loser');
             p2Button.innerHTML = '<i class="fas fa-meh"></i>';
-            if (serverTracker.textContent === 'ON'){
-                if (p1Marker.classList.contains('serverOn')){
+            if (serverTracker.textContent === 'ON') {
+                if (p1Marker.classList.contains('serverOn')) {
                     p1Marker.classList.add('winner');
                 }
             }
@@ -303,8 +303,8 @@ nextButton.addEventListener('click', function () {
             p2Button.innerHTML = '<i class="fas fa-grin-squint-tears"></i>';
             p1Button.classList.add('loser');
             p1Button.innerHTML = '<i class="fas fa-meh"></i>';
-            if (serverTracker.textContent === 'ON'){
-                if (p2Marker.classList.contains('serverOn')){
+            if (serverTracker.textContent === 'ON') {
+                if (p2Marker.classList.contains('serverOn')) {
                     p2Marker.classList.add('winner');
                 }
             }
